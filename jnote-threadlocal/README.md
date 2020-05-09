@@ -64,6 +64,11 @@ http://127.0.0.1:2001/callable
 2020-04-30 15:43:21.400  INFO  com.ttl.util.LogUtil Line:12  - testCallable ------- 当前线程：http-nio-2001-exec-5，ThreadLocal值：testCallable_Value
 2020-04-30 15:43:21.401  INFO  com.ttl.util.LogUtil Line:12  - testCallable ------- 当前线程：pool-3-thread-1，ThreadLocal值：testCallable_Value
 
-### 6. 参考链接
+### 6.入口类
+- TtlThreadPoolController
+- TtlRunnableCallableController
+- TtlBizController
+
+### 7. 参考链接
 @CallMe兵哥  简书
 https://www.jianshu.com/p/d542d2773f7b
