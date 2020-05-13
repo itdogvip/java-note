@@ -6,8 +6,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 @EnableAsync
 @SpringBootApplication
-public class SpringBootTtlApplication {
+public class JNoteTtlRestApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootTtlApplication.class, args);
+        SpringApplication.run(JNoteTtlRestApplication.class, args);
     }
 }
